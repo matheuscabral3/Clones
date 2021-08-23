@@ -18,12 +18,39 @@ body {
     align-items: center;
 }
 
-.content-insert {}
+.content-insert {
+    border: 1px solid #000;
+    width: 600px;
+    height: 450px;
+    text-align: center;
+    padding: 10px;
+}
 
-label,
-input,
-button {
+label {
     margin: 10px;
+    text-transform: capitalize;
+}
+
+input {
+    margin: 12px 20px;
+    border: none;
+}
+
+button {
+    margin: 20px 10px 20px 10px;
+    width: 90px;
+    height: 30px;
+    border: 1px solid #000;
+    cursor: pointer;
+    background: none;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+#txtPeso {
+    margin-left: 25px;
 }
 
 h2 {
