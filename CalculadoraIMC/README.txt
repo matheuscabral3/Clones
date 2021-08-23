@@ -5,5 +5,4 @@ O IMC é reconhecido como padrão internacional para avaliar o grau de sobrepeso
 
 O Índice de Massa Corporal é calculado através da equação:
 
-1 - Altura multiplicada pela altura: ( Altura x Altura ) = Resultado.
-2 - Peso dividido pelo quadrado da altura: Peso / (Altura)² ) = Resultado.
+1 - Peso dividido pelo quadrado da altura: Peso / (Altura)² ) = Resultado.
