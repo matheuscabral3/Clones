@@ -4,14 +4,16 @@
     border: 0;
 } */
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 body {
     margin: 0px;
+    font-family: 'Roboto';
 }
 
 .container {
     width: 100vw;
     height: 100vh;
-    background: #6C7A89;
+    background: #dcdcdc;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -19,34 +21,64 @@ body {
 }
 
 .content-insert {
+    background: #f0f0f0;
     border: 1px solid #000;
-    width: 600px;
-    height: 450px;
+    width: 450px;
+    height: 550px;
     text-align: center;
     padding: 10px;
 }
 
+#title {
+    text-transform: uppercase;
+    color: royalblue;
+}
+
+#txtAreaResult {
+    /* background-color: #000; */
+    border: 1px solid #000;
+    border-left: 25%;
+    Resize: none;
+    width: 290px;
+    height: 100px;
+    text-align: center;
+    color: #000;
+}
+
 label {
     margin: 10px;
-    text-transform: capitalize;
+    color: royalblue;
 }
 
 input {
     margin: 12px 20px;
-    border: none;
+    width: 20em;
+    height: 1.9em;
+    border: 1px solid royalblue;
+    border-radius: 1em;
+    text-align: center;
+}
+
+input:focus {
+    outline: none !important;
+    border: 1px solid royalblue;
+    box-shadow: 0 0 10px #719ECE;
 }
 
 button {
     margin: 20px 10px 20px 10px;
-    width: 90px;
+    width: 100px;
     height: 30px;
-    border: 1px solid #000;
+    border: 1px solid royalblue;
     cursor: pointer;
     background: none;
+    border-radius: 1em;
+    color: royalblue;
 }
 
 button:hover {
-    background-color: gray;
+    background-color: cornflowerblue;
+    color: white;
 }
 
 #txtPeso {
@@ -55,4 +87,5 @@ button:hover {
 
 h2 {
     text-align: center;
+    color: royalblue;
 }
